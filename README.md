@@ -9,7 +9,7 @@
 
 |              |                        Baidu Netdisk                         |                         Google Drive                        | Description                                                  |
 | :----------- | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| Mobile-HDR | todo | [link](https://drive.google.com/file/d/1UBGvI_KCPkEyCNQkFrNNPY5LnXjAm2Oi/view?usp=share_link) | We offer LDR-HDR data pairs with three-exposure input frames. |
+| Mobile-HDR | todo | [link](https://drive.google.com/drive/folders/1ydUpdeThM2yoZJiCXRB3ZHDVPIykbt2o?usp=share_link) | We offer LDR-HDR data pairs with three-exposure input frames. |
 
 
 ## Mobile-HDR Data structure
