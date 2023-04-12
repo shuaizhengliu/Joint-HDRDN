@@ -1,5 +1,6 @@
 # Joint HDR Denoising and Fusion: A Real-World Mobile HDR Image Dataset (CVPR2023)
 
+[Paper](https://drive.google.com/file/d/1EnFFwjnHGfKliRTnAMRGZIX-yBN8isx_/view?usp=sharing) | [Supp](https://drive.google.com/file/d/17zemSVqbpmoe5sqqxgjaYEV2IA7x-YAi/view?usp=sharing)
 ## News
 
 - **2022.04.10**: Our Mobile-HDR dataset is uploaded to the Google Drive now.
