@@ -35,9 +35,9 @@ For each .npz file in above folders, it contains Raw data of three-exposures LDR
 
 ```
 #  Key_name Column_index1              Column_index2
----['sht']  [0:4] (original raw data)  [4:8] (luminace-aligned data)
----['mid']  [0:4] (original raw data)  [4:8] (luminace-aligned data)
----['lng']  [0:4] (original raw data)  [4:8] (luminace-aligned data)
+---['sht']  [0:4] (original raw data)  [4:8] (luminace-aligned data)  # The data of short exposure
+---['mid']  [0:4] (original raw data)  [4:8] (luminace-aligned data)  # The data of mid exposure
+---['lng']  [0:4] (original raw data)  [4:8] (luminace-aligned data)  # The data of long exposure
 ---['hdr']  [0:4] (hdr GT)
 
 ```
