@@ -26,7 +26,19 @@
               ├── test_withoutGT
 
 ```
-( The *.npz data has been processed to be sent network directly. More details will be given before 4.15 )
+
+For each .npz file in above folders, it contains Raw data of three-exposures LDRs and corresponding HDR GT in raw format (except for the test data in test_withoutGT folder). The Raw data of each exposure has been processed through black level correction and normalization. We split the RAW data with shape of H and W into four sub-matrix with shape of H/2 and W/2 based on the bayer pattern. The four sub-matrix are concatenated as four-channel matrix in B-G-G-R sequential. Furthermore, we obtain the corresponding luminance-aligned data for each LDR by dividing it with exposuse ratio, which also owns four channel finally. Lastly, we concatenate the origianl raw data and the corresponding luminance-aligned data as an eight-channel matrix for each LDR. Since the HDR GT does not need the luminace alignment, its has only four channels. Specifically, the components are arranged as below.
+
+(The specific read operation for training has been offered in dataset.py)
+
+'''
+#  Key_name Column_index1              Column_index2
+---['sht']  [0:4] (original raw data)  [4:8] (luminace-aligned data)
+---['mid']  [0:4] (original raw data)  [4:8] (luminace-aligned data)
+---['lng']  [0:4] (original raw data)  [4:8] (luminace-aligned data)
+---['hdr']  [0:4] (hdr GT)
+
+'''
 
 ## Pretrained Model
 
