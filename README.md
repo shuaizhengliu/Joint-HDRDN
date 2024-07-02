@@ -43,7 +43,8 @@ For each .npz file in above folders, it contains Raw data of three-exposures LDR
 ```
 
 ## Pretrained Model
-
+Download the pre-trained checkpoint and put it in the checkpoint folder.
+[link](https://drive.google.com/file/d/1x627_w1vpfoxfvRk6rviYGV7SqvUyHHf/view?usp=drive_link)
 
 
 ## Training Phase
